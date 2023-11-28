@@ -1,0 +1,16 @@
+.navContainer{
+  transition: opacity 0.3s ease-in-out;  
+}
+
+.navItem{
+    transition: transform 1s cubic-bezier(0.56, 0.24, 0, 1.04);
+    transform-origin: center;
+    transform: scale(0);
+}
+
+.show{
+    transition: transform 1s cubic-bezier(0.56, 0.24, 0, 1.04);
+    transform: scale(1);
+    transform-origin: center;
+
+}
