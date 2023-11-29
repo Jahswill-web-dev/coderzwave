@@ -13,7 +13,7 @@ export default function Home() {
       </Head>
 
       <Nav />
-      <div className="w-[90%] mx-auto lg:max-w-4xl">
+      <div className="w-[90%] mx-auto lg:max-w-4xl sm">
         <Hero />
         <Pitch/>
       </div>
