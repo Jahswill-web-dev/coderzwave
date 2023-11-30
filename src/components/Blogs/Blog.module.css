@@ -1,0 +1,7 @@
+
+
+.customCardGrid{
+    display: grid;
+    grid-auto-rows: repeat(3, 1fr);
+    row-gap: 1rem;   
+}

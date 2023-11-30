@@ -2,22 +2,23 @@ import Image from "next/image";
 import heroImage from "../../../public/images/hero-image.png";
 import logo from "../../../public/images/logo2.svg";
 import secondImage from "../../../public/images/second-image.png";
+
 const Hero = () => {
   return (
-    <div>
+    <div className="">
       {/* section 1 */}
       <div className="relative">
         {/* text and image */}
-        <div className="flex flex-col sm:flex-row sm:gap-3">
+        <div className="flex flex-col sm:flex-row sm:gap-10 sm:items-center">
           <Image
             src={heroImage}
             alt="python codes saying Learn to code fast image"
             width={500}
             height={500}
-            className=""
+            className="sm:w-1/2 mx-auto"
           />
-          <div className="flex flex-col gap-1">
-            <h1 className="text-primary text-[32px] font-bold">
+          <div className="flex flex-col gap-1 sm:w-1/2">
+            <h1 className="text-primary text-[32px] font-bold min-[420px]:text-5xl">
               Learn to code the fastest way possible
             </h1>
             <p className="text-third text-xl font-semibold">

@@ -3,6 +3,9 @@ import Nav from "@/components/Nav/Nav.jsx";
 import Head from "next/head";
 import Hero from "@/components/Hero/Hero.jsx";
 import Pitch from "@/components/Pitch/Pitch";
+import Programs from "@/components/Programs/Programs";
+import BlogPreview from "@/components/Blogs/BlogPreview";
+import Newsletter from "@/components/Newsletter/Newsletter";
 
 export default function Home() {
   return (
@@ -13,9 +16,12 @@ export default function Home() {
       </Head>
 
       <Nav />
-      <div className="w-[90%] mx-auto lg:max-w-4xl sm">
+      <div className="w-[90%] mx-auto lg:max-w-6xl">
         <Hero />
         <Pitch/>
+        <Programs/>
+        <BlogPreview/>
+        <Newsletter/>
       </div>
     </div>
   );
