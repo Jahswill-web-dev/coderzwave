@@ -16,7 +16,7 @@ export default function Home() {
       </Head>
 
       <Nav />
-      <div className="w-[90%] mx-auto lg:max-w-6xl">
+      <div className="w-[90%] mx-auto lg:max-w-7xl">
         <Hero />
         <Pitch/>
         <Programs/>

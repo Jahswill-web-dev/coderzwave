@@ -13,12 +13,12 @@ const Nav = () => {
   return (
     <nav className="">
       <div
-        className={`mx-auto flex items-center justify-between lg:max-w-6xl px-3 pt-3 ${
-          isNavOpen ? "absolute sm:relative top-0 mb-10 w-full" : "relative"
+        className={`mx-auto flex items-center justify-between lg:max-w-7xl px-3 pt-3 ${
+          isNavOpen ? "fixed sm:relative top-0 mb-10 w-full" : "relative"
         } z-30`}
       >
         <div>
-          <Image src={logo} alt="coderz wave logo" width={60} height={60} />
+          <Image src={logo} alt="coderzwave logo" width={60} height={60} />
         </div>
         {/* NavList */}
         <div className="hidden sm:flex gap-5 items-center">

@@ -8,7 +8,7 @@ function BlogPreview() {
         Recent blog posts(coming soon)
       </h2>
       {/* Cards */}
-      <div className="flex flex-col gap-5">
+      <div className="flex flex-col gap-5 sm:grid sm:grid-cols-2 md:grid-cols-3 md:p-10">
         {/* card */}
         <div
           className={` bg-white shadow-lg text-primary px-2 py-4 ${styles.customCardGrid}`}
