@@ -4,7 +4,7 @@ import webdev from "../../../public/images/webdev.png";
 
 function Programs() {
   return (
-    <div className="mt-20">
+    <div id="programs" className="mt-20">
       <div className="flex flex-col gap-2 items-center">
         <h3 className="text-center text-2xl font-semibold text-primary">
           Our Coaching Programs

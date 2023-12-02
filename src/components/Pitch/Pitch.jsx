@@ -45,7 +45,7 @@ function Pitch() {
 
       {/* block */}
 
-      <div className="flex flex-col gap-3 items-center col-start-2 col-end-6">
+      <div id="start" className="flex flex-col gap-3 items-center col-start-2 col-end-6">
         {/* Image */}
         <Image
           src={startImage}
@@ -61,7 +61,7 @@ function Pitch() {
             coaching program
           </p>
         </div>
-        <Link className="text-2xl bg-secondary text-primary rounded border-2 border-primary px-3 py-2" href="#">Start Now</Link>
+        <Link className="text-2xl bg-secondary text-primary rounded border-2 border-primary px-3 py-2" href="#programs">Start Now</Link>
       </div>
     </div>
   );

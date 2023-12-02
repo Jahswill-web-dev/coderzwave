@@ -63,7 +63,7 @@ const Nav = () => {
             Programs
           </Link>
           <Link
-            href="#programs"
+            href="#newsletter"
             className={`text-primary ${styles.navItem}${
               isNavOpen ? styles.show : ""
             }`}
@@ -72,7 +72,7 @@ const Nav = () => {
           </Link>
           {/* <Link href="#newsletter"className={`text-primary ${styles.navItem} ${isNavOpen ? styles.show : ''}`}>Newsletter</Link> */}
           <Link
-            href="#programs"
+            href="#start"
             className={`text-primary ${styles.navItem}${
               isNavOpen ? styles.show : ""
             }`}
