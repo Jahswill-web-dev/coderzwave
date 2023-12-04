@@ -7,7 +7,7 @@ function Newsletter() {
       <Image src={newsletter} width={400} height={400} className="sm:w-1/2  sm:p-10"/>
       <div className="sm:w-1/2">
         <h3 className="text-primary text-2xl mx-auto sm:mx-0 mb-3 sm:w-[70%] text-center sm:text-left">
-          Get FREE weekly tips on going from beginner to expert
+          Get FREE tips weekly on going from beginner to expert
         </h3>
         <form className="flex flex-col gap-5 items-center sm:items-start">
           <input type="text" name="name" placeholder="Name" className="w-[20rem] text-xl border-solid focus:outline-none border-4 border-b-primary" />
@@ -18,7 +18,7 @@ function Newsletter() {
       
     </div>
     <footer className="p-10">
-        <p className="text-center text-primary text-xl">©2023 coderzwave</p>
+        <p className="text-center text-primary text-xl">©2023 Coderzwave</p>
     </footer>
     </div>
   );
